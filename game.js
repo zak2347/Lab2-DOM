@@ -231,7 +231,7 @@ function updateBees() { // update loop for game
     let hits = Number(document.getElementById("hits").textContent); //comment and find out why you use let
 
 
-    if (hits == 1000) {
+    if (hits >= 1000) {
 
         //console.log("Game Over!");
         gameOver.innerHTML = "Game Over!";
